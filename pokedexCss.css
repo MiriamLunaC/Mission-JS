@@ -1,0 +1,65 @@
+.div1{
+    width: 100%;
+    background-image: url('./Images/pokedexHead.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10%;
+    padding-bottom: 12%;
+}
+
+.div2{
+    display: flex;
+    border: 5px solid black;
+    margin: 1%;
+}
+
+.div3{
+    margin: 5%;
+}
+
+#pokImg{
+    margin: 5%;
+    border-radius: 50%;
+    border: 1px solid rgb(61, 61, 61);
+    box-shadow: 1px 1px 1px 1px rgb(61, 61, 61);
+}
+
+.divBody{
+    background-color: #1988AEFF;
+    width: 39%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-left: 14%;
+}
+
+.divFooter{
+    width: 50%;
+    background-image: url('./Images/pokedexFooter.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10%;
+    padding-bottom: 11%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div3, #name, #button{
+    margin-left: 5%;
+}
+
+#button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #06F5FF;
+    border-color: #06F5FF;
+    margin-left: 42%;
+}
+
+*{
+    margin-left: 12.3%;
+}

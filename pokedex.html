@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" type="text/css" href="pokedexCss.css" />
+</head>
+<body>
+    <div class="div1">
+    </div>
+    <div class="divBody">
+        <input type="text" placeholder="Nombre de pokemón" id="name" name="name"><br>
+        <div class="div2">
+            <img id="pokImg" src="https://i0.wp.com/shinesparkers.net/wp-content/uploads/2014/06/Pokeball.png?ssl=1" width="100px" height="100px">
+            <div class="div3">
+                <label>Tipo de pokemon: </label><label id="tipo"></label><br><br>
+                <label>Estadísticas: </label><label id="estadisticas"></label><br><br>
+                <label>Movimientos: </label><label id="moves"></label><br>
+            </div>
+        </div>
+        <button onclick="fetchPokemon()" id="button"></button>
+    </div>
+    <div class="divFooter">
+    </div>
+</body>
+<footer>
+    <script src="./pokedexJs.js"></script>
+</footer>
+</html>
